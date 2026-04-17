@@ -34,6 +34,10 @@ The world is our office
 ]
 ```
 
+## Deployment Notes
+
+Logpush is disabled by default (`logpush = false` in `wrangler.toml`) for free tier compatibility. If you are on a Cloudflare paid plan and want to ship logs to an external destination, set `logpush = true`.
+
 ## Development
 
 ```shell

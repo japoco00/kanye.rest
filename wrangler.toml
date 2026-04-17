@@ -6,5 +6,5 @@ compatibility_date = "2024-05-29"
 compatibility_flags = ["nodejs_compat"]
 
 workers_dev = false
-logpush = true
+logpush = false
 route = "api.kanye.rest/*"
